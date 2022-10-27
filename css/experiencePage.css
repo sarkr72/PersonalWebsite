@@ -10,84 +10,99 @@ body {
     color: #fff;
 }
 
-#wholePage{
+#wholePage {
     width: 100%;
     height: 300vh;
 }
 
-#outerBox{
-/* background-color: red; */
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-padding: 10px 10px;
-align-items: center;
-max-width: 95%;
-height: 300vh;
-gap: 50px;
-margin-left: 2.5%;
+#outerBox {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    align-items: center;
+    max-width: 95%;
+    height: 300vh;
+    gap: 50px;
+    margin-left: 2.5%;
 }
 
-h1{
+h1 {
     font: 26px;
     align-items: center;
 }
-.innerBox1{
-display: flex;
-flex-direction: column;
-padding: 10px 10px;
-align-items: center;
-width: 95%;
-height: 60vh;
-/* background: orange; */
+
+.innerBox1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    align-items: center;
+    width: 95%;
+    height: 60vh;
+    border-radius: 10px;
+    /* background: orange; */
 }
 
-.header{
-width:100%;
-height: 20vh;
-background: blue;
-padding-left: 10px;
-padding-top: 50px;
+.header {
+    width: 100%;
+    height: 20vh;
+    /* background: blue; */
+    padding-left: 10px;
+    padding-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgb(12, 5, 105);
+    background: linear-gradient(0deg rgb(4, 4, 109) rgb(60, 60, 233));
 }
 
-::marker ul li{
+::marker ul li {
     color: #000000;
 }
-.employer1{
-top:90%;
+
+.employer1 {
+    top: 90%;
 }
 
-.detailsBox{
-width:100%;
-height: 90vh;
-padding: 20px;
-background: green;
+.detailsBox {
+    width: 100%;
+    height: 90vh;
+    padding: 20px;
+    background: rgb(41, 44, 41);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 10px 26px -6px #c50909ef;
 }
 
-.innerBox2{
-display: flex;
-flex-direction: column;
-padding: 10px 10px;
-align-items: center;
-width: 95%;
-height: 60vh;
-/* background-color: orange; */
+.innerBox2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    align-items: center;
+    width: 95%;
+    height: 60vh;
+    border-radius: 10px;
+    /* background-color: orange; */
 }
-.innerBox3{
-display: flex;
-flex-direction: column;
-padding: 10px 10px;
-align-items: center;
-width: 95%;
-height: 60vh;
-/* background-color: orange; */
+
+.innerBox3 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    align-items: center;
+    width: 95%;
+    height: 60vh;
+    border-radius: 10px;
+    /* background-color: orange; */
 }
-.innerBox4{
-display: flex;
-flex-direction: column;
-padding: 10px 10px;
-align-items: center;
-width: 95%;
-height: 60vh;
-/* background-color: orange; */
+
+.innerBox4 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    align-items: center;
+    width: 95%;
+    height: 60vh;
+    border-radius: 10px;
+    /* background-color: orange; */
 }

@@ -1,0 +1,107 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+    
+}
+
+.container{
+    max-height: 90vh;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px;
+    /* box-shadow: 8px 15px 10px red; */
+    /* background-color: aquamarine; */
+    text-align: center;
+    position: relative;
+}
+
+.details{
+    font:bold;
+    font-size: 30px;
+    /* font-family:  Playfair Display; */
+    font-family: Pacifico;
+}
+
+.page{
+    height:200vh;
+}
+
+video{
+   
+    /* background-color: blueviolet; */
+}
+
+#vidbutton::after{
+    top: 50%;
+    left: 50%;
+    position:absolute;
+    /* content: '❙❙'; */
+    font-size: 40px;
+}
+
+#vidbutton:checked+::after{
+    /* content:'►'; */
+    font-size: 40px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#ff004f; */
+}
+
+img{
+    width:40px;
+    height: 40px;
+    mix-blend-mode: multiply;
+}
+
+span{
+    font-size: 35px;
+    font:bold;
+    box-shadow: 8px 10px 10px red;
+    background-color: darkslategrey;
+    animation: glow 1s ease-in-out infinite alternate;
+    border-radius: 5px;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                   0 0 20px #9554b3, 0 0 30px #9554b3, 0 0 40px #9554b3;
+    }
+    to {
+      text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                   0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  h1{
+    font-size: 35px;
+    font:bold;
+    /* box-shadow: 8px 10px 10px red; */
+    background-color: darkslategrey;
+    animation: glow1 1s ease-in-out infinite alternate;
+    border-radius: 5px;
+    width: max-content;
+  }
+  @keyframes glow1 {
+    from {
+      text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                   0 0 20px #9554b3, 0 0 30px #9554b3, 0 0 40px #9554b3;
+    }
+    to {
+      text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                   0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
